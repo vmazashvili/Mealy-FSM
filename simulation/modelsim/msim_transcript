@@ -1,0 +1,87 @@
+# Reading pref.tcl
+# do FSM_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Vano/Desktop/altera/lab_3-FSM {C:/Users/Vano/Desktop/altera/lab_3-FSM/baseline_c5gx.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:53:32 on Oct 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vano/Desktop/altera/lab_3-FSM" C:/Users/Vano/Desktop/altera/lab_3-FSM/baseline_c5gx.v 
+# -- Compiling module baseline_c5gx
+# 
+# Top level modules:
+# 	baseline_c5gx
+# End time: 15:53:32 on Oct 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/Vano/Desktop/altera/lab_3-FSM {C:/Users/Vano/Desktop/altera/lab_3-FSM/FSM_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 15:53:33 on Oct 16,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/Vano/Desktop/altera/lab_3-FSM" C:/Users/Vano/Desktop/altera/lab_3-FSM/FSM_tb.v 
+# -- Compiling module FSM_tb
+# 
+# Top level modules:
+# 	FSM_tb
+# End time: 15:53:33 on Oct 16,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.FSM_tb
+# vsim work.FSM_tb 
+# Start time: 15:53:46 on Oct 16,2020
+# Loading work.FSM_tb
+# Loading work.baseline_c5gx
+add wave -position insertpoint  \
+sim:/FSM_tb/LEDR
+add wave -position insertpoint  \
+sim:/FSM_tb/KEY
+add wave -position insertpoint  \
+sim:/FSM_tb/CLOCK_125_p
+add wave -position insertpoint  \
+sim:/FSM_tb/SW
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position insertpoint  \
+sim:/FSM_tb/baseline_c5gx_instance/current_state
+add wave -position insertpoint  \
+sim:/FSM_tb/baseline_c5gx_instance/next_state
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+add wave -position end  sim:/FSM_tb/baseline_c5gx_instance/button
+add wave -position end  sim:/FSM_tb/baseline_c5gx_instance/buttonPrev
+add wave -position end  sim:/FSM_tb/baseline_c5gx_instance/buttonDeb
+run
+restart
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 16:06:10 on Oct 16,2020, Elapsed time: 0:12:24
+# Errors: 0, Warnings: 0

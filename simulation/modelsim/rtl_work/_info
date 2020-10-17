@@ -1,0 +1,60 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vano/Desktop/altera/lab_3-FSM/simulation/modelsim
+vbaseline_c5gx
+!s110 1602849212
+!i10b 1
+!s100 g@:QORT=]7[_jzeY?@bM03
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I4kNLg@O3GBU3ZJha8RG=[1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1602845918
+8C:/Users/Vano/Desktop/altera/lab_3-FSM/baseline_c5gx.v
+FC:/Users/Vano/Desktop/altera/lab_3-FSM/baseline_c5gx.v
+!i122 0
+L0 1 79
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1602849212.000000
+!s107 C:/Users/Vano/Desktop/altera/lab_3-FSM/baseline_c5gx.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vano/Desktop/altera/lab_3-FSM|C:/Users/Vano/Desktop/altera/lab_3-FSM/baseline_c5gx.v|
+!i113 1
+Z4 o-vlog01compat -work work
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/Vano/Desktop/altera/lab_3-FSM
+Z6 tCvgOpt 0
+vFSM_tb
+!s110 1602849213
+!i10b 1
+!s100 nljE9RAzQUO=Oaz;fH6gS2
+R1
+IWieoG[j=z1iWomM4>51PS3
+R2
+R0
+w1602812215
+8C:/Users/Vano/Desktop/altera/lab_3-FSM/FSM_tb.v
+FC:/Users/Vano/Desktop/altera/lab_3-FSM/FSM_tb.v
+!i122 1
+L0 1 36
+R3
+r1
+!s85 0
+31
+!s108 1602849213.000000
+!s107 C:/Users/Vano/Desktop/altera/lab_3-FSM/FSM_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Vano/Desktop/altera/lab_3-FSM|C:/Users/Vano/Desktop/altera/lab_3-FSM/FSM_tb.v|
+!i113 1
+R4
+R5
+R6
+n@f@s@m_tb
